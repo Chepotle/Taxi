@@ -53,20 +53,18 @@ span {
     letter-spacing: 2.5px;
 }
 
-.header_intro_menu {
-    display: flex;
-    justify-content: space-between;
-}
-
 .header_menu {
     display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-bottom: 0;
+    align-items: center;
     li {
-        width: 96px;
-        height: 34px;
-        border-radius: 17px;
+        height: 40px;
         display: flex;
-        justify-content: center;
+        padding: 0 10px;
         align-items: center;
+        border-radius: 17px;
         &:hover {
             background-color: #ffc61a;
             a {
