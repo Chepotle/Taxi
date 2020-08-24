@@ -1119,6 +1119,14 @@ main {
   .header_menu {
     display: none;
   }
+  .intro_headers {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    margin: 0;
+  }
 }
 
 @media (max-width: 767.98px) {
@@ -1196,9 +1204,6 @@ main {
   .burger_menu li {
     margin-bottom: 35px;
   }
-  .intro_headers {
-    margin-top: 65px;
-  }
   .intro_title {
     font-size: 47px;
   }
@@ -1269,5 +1274,11 @@ main {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+}
+
+@media (max-height: 720.98px) {
+  .intro_img {
+    display: none;
   }
 }
