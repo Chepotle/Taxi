@@ -30,7 +30,7 @@
     }
 
     .intro_img {
-        transform: translate(-50%, -3%);
+        display: none;
     }
 
     .tariff {
@@ -173,9 +173,6 @@
         margin-bottom: 20px;
     }
 
-    .intro_img {
-        display: none;
-    }
 }
 
 // 575

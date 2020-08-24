@@ -1050,8 +1050,7 @@ main {
     display: block;
   }
   .intro_img {
-    -webkit-transform: translate(-50%, -3%);
-            transform: translate(-50%, -3%);
+    display: none;
   }
   .tariff {
     margin-top: 20px;
@@ -1189,9 +1188,6 @@ main {
   }
   .android {
     margin-bottom: 20px;
-  }
-  .intro_img {
-    display: none;
   }
 }
 
